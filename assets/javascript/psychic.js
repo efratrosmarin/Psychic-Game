@@ -22,25 +22,24 @@ var guessesSoFar = [];
 //whenever a key is pressed creates an event
 
 document.onkeyup = function(event) {
-    console.log ("inthekeyfunction");
-//Capture user's guess
+    // console.log ("inthekeyfunction");
 
-    // var userGuess = event.key;
-    // guessesSoFar.push(userGuess);
 
 
 // Generate choice 
     var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
     var userGuess = String.fromCharCode(event.keyCode).toLowerCase();
 
+    
+    
     guessesSoFar.push(userGuess);
+  
+    
    
 
 //if/else statements for computer against user
 
-// if ((userGuess === "e") || (userGuess === "f") || (userGuess === "r")|| (userGuess === "a") || (userGuess === "t")) {
 
-    //run game
 
     if (userGuess === computerGuess){
         wins++;
@@ -63,10 +62,6 @@ document.onkeyup = function(event) {
             guessesLeft--;
 
         }
-
-    
-    
-
 
 //write results to html
 

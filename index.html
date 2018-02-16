@@ -6,38 +6,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>The Psychic Game</title>
-
-
+  <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href=./assets/css/style.css>
 </head>
 
 <body>
+<!-- <div class =image>
+  <img src=./assets/images/head.png>
+</div> -->
+  <div class="jumbotron jumbotron-fluid bg-dark text-light">
+      <img src= "./assets/images/head.png" class="rounded float-right pr-5" alt="head">
+    <div class="container">
+      
+      <h1 class="display-4">The Psychic Game</h1>
+      <p class="lead">Click any letter - Good Luck! </p>
+    </div>
+  </div>
 
 
+    <!-- <div class="p-1 mb-2 bg-danger"></div> -->
 
 
   <div id="game">
 
-    <p>Guess what letter I'm thinking of:
+      
+
+    <h2>Guess what letter I'm thinking of:
       <span id="computer-guess"></span>
-    </p>
+    </h2>
 
-    <p>Wins:
+    <h2>Wins:
       <span id="wins"></span>
-    </p>
+    </h2>
 
-    <p>Losses:
+    <h2>Losses:
       <span id="losses"></span>
-    </p>
+    </h2>
 
-    <p>Guesses Left:
+    <h2>Guesses Left:
       <span id="guesses-left"></span>
-    </p>
+    </h2>
 
-    <p>Your guesses so far:
+    <h2>Your guesses so far:
       <span id="user-guess"></span>
-    </p>
+    </h2>
 
   </div>
+
+  
+
+  <footer class="p-1 bg-danger fixed-bottom"></footer>
+
 
   <script type="text/javascript" src="./assets/javascript/psychic.js"></script>
 

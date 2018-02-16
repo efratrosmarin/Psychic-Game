@@ -1,0 +1,37 @@
+body{
+
+    width: 100%;
+    height: 100%;
+}
+
+.jumbotron{
+
+    height:500px;}
+
+
+.container{font-family: 'Special Elite', cursive;
+   
+}
+h2{
+    font-family: 'Amatic SC', cursive;
+}
+
+#game{
+
+    margin: auto;
+    width: 50%;
+   
+    padding: 30px;
+    color:grey;
+}
+
+img{
+    margin:0px;
+
+
+}
+#computer-guess, #wins, #losses, #guesses-left, #user-guess{
+
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+}
